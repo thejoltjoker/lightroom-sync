@@ -14,6 +14,7 @@ import time
 from logging.config import dictConfig
 from pathlib import Path
 
+
 def setup_logging(level="debug"):
     if level == "info":
         log_level = logging.INFO
