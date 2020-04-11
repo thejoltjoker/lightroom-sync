@@ -1,5 +1,5 @@
 from unittest import TestCase
-import lightroom_sync
+from lightroom_sync import lightroom_sync
 import sqlite3
 import os
 from pathlib import Path

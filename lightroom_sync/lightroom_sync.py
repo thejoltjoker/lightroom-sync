@@ -32,7 +32,7 @@ def setup_logging(level="debug"):
                    "level": log_level},
             "fh": {"class": "logging.FileHandler",
                    "formatter": "f",
-                   "filename": "lrsync.log",
+                   "filename": "lightroom_sync.log",
                    "level": log_level}
         },
         root={
@@ -51,7 +51,7 @@ setup_logging(level="debug")
 
 
 class LightroomSync:
-    def __init__(self, db_name="lrsync.db"):
+    def __init__(self, db_name="lightroom_sync.db"):
         self.db = db_name
         self.conn = sqlite3.connect(self.db)
         self.cur = self.conn.cursor()
