@@ -5,3 +5,7 @@ Lightroom sync is a script that helps you keep your Lightroom catalogs up to dat
 ## Usage
 ### Folder Structure
 lightroom > catalogs > *year* > __lr_classic_v001.lrcat__
+
+
+## Notes
+I created this little project to learn SQL and database operations.
